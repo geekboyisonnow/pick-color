@@ -99,7 +99,7 @@ class Color extends Component {
                 <option value="350" />
                 <option value="360" />
               </datalist>
-              <label for="hue">Hue</label>
+              <label htmlFor="hue">Hue</label>
               <input
                 type="range"
                 value={this.state.saturation}
@@ -122,7 +122,7 @@ class Color extends Component {
                 <option value="100" />
               </datalist>
 
-              <label for="saturation">Saturation</label>
+              <label htmlFor="saturation">Saturation</label>
               <input
                 type="range"
                 value={this.state.lightness}
@@ -144,7 +144,7 @@ class Color extends Component {
                 <option value="90" />
                 <option value="100" />
               </datalist>
-              <label for="lightness">Lightness</label>
+              <label htmlFor="lightness">Lightness</label>
             </section>
           </section>
         </main>

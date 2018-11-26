@@ -26,14 +26,14 @@ header {
   text-align: center;
   height: 100%;
   width: 100%;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 footer {
   background-color: black;
   color: white;
-  padding: 35px 0;
+  padding: 39px 0;
   height: 100%;
   width: 100%;
 }
