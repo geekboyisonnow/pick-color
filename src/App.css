@@ -1,26 +1,54 @@
-main {
+.slider {
   display: flex;
-  justify-content: space-around;
+  margin: auto;
+  padding: 100px;
+  flex-direction: column;
 }
 
-body {
-  background-color: cadetblue;
-  margin: 0;
+div {
+  height: 100%;
   width: 100%;
 }
 
-button {
-  color: white;
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(170, 170, 170);
+  height: 100%;
+  width: 100%;
 }
 
 header {
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
   text-align: center;
-  background-color: lightblue;
-  margin: 0;
-
-  padding: 0;
+  height: 100%;
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
+footer {
+  background-color: black;
+  color: white;
+  padding: 35px 0;
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+/* 
+.flex {
+  display: flex;
+  justify-content: space-around;
+} */
+
+/* 
 section {
   background-color: blue;
   display: flex;
@@ -30,10 +58,24 @@ section {
 
 label {
   padding: 1.2rem;
-  background-color: lightblue;
+  background-color: rgb(251, 255, 1);
 }
 
-div {
-  background-color: yellow;
-  float: right;
+
+
+/* .values {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+} */
+
+/*
+@media only screen and (min-width: 601px) {
+  div.example {
+    font-size: 80px;
+  }
+} */
+
+label {
+  padding-bottom: 50px;
 }
